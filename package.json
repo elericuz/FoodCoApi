@@ -1,26 +1,47 @@
 {
-  "name": "foodCo_web",
+  "name": "Food Store API",
   "version": "1.0.0",
-  "description": "Food Management Software",
-  "author": "Eric Valera Miller <ericœelericuz.com>",
+  "author": "Eric Valera Miller <eric@iteraciona.com>",
+  "description": "a Food Store API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-api-project": "./bin/start.js"
   },
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dateformat": "^4.5.1",
-    "ejs": "^3.1.6",
-    "express": "^4.16.1",
-    "foundation-datepicker": "^1.5.6",
-    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.1.1",
+    "bson": "^6.9.0",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^7.4.1",
+    "geolib": "^3.3.4",
+    "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
-    "moment": "^2.29.1",
-    "mongoose": "^5.12.14",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.46",
+    "mongoose": "^8.5.2",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "mongoose-paginate-v2": "^1.8.5",
     "morgan": "^1.10.0",
-    "sessionstorage": "^0.1.0"
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "request-ip": "^3.3.0",
+    "resend": "^4.0.1",
+    "sanitize-html": "^2.13.1",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^5.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  }
+  "keywords": [],
+  "license": "MIT",
+  "type": "module"
 }
