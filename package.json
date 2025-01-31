@@ -8,9 +8,6 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "create-api-project": "./bin/start.js"
-  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bson": "^6.9.0",
